@@ -8,11 +8,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.dio.beerstock.enums.BeerType;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+@Data //gera setter and getters e equals e hashcode
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
